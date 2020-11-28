@@ -37,9 +37,6 @@
     margin-top: .4rem;
 }
 
-.menu-text-dark{
-    color: var(--dark-grey)
-} 
 
 .footer__phone{
     grid-column: span 1;
@@ -74,7 +71,7 @@
     .menu-text-adress {
         line-height: 3rem;
     }
-    .menu-text.menu-text-dark.text-no-space{
+    .menu-text.text-dark.text-no-space{
         line-height: 4rem;
     }
     .footer__phone .menu-text:first-child {

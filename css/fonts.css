@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+.company_name_text{
+    font-family: 'Alatsi', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    color: var(--gold);
+    margin: 0;
+    padding: 0;
+}
 
 
 .text-xs{
@@ -28,6 +38,7 @@
 .menu-text:hover{
     color: var(--gold);
     transition: color 0.6s ease;
+    font-weight: var(--font-bold);
 }
 
 .menu-text:focus{
@@ -81,7 +92,9 @@
 }
 
 
-
+.text-dark{
+    color: var(--dark-grey)
+} 
 
 .text-up{
     text-transform: uppercase;

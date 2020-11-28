@@ -13,13 +13,15 @@
 }
 .wrap{
     /* width: 115rem; */
-    width: 192rem;
+    /* width: 192rem; */
+    width: 111rem;
     background: var(--dark-grey);
     margin: 0 auto;
 }
 
 .main__wrap{
-    width: 111rem;
+     width: 111rem; 
+    /* width: 100vw; */
     margin: 0 auto;
 }
 
@@ -33,4 +35,11 @@
     height: 45rem;
     background: url('img/map.png');
     margin-top: 12rem;
+}
+
+@media screen and (max-width: 500px){
+    .main__wrap{
+        position: relative;
+    }
+
 }

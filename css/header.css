@@ -79,6 +79,10 @@
     padding-left: 1.8rem;
 }
 
+.mobile__menu__wrap{
+    display: none;
+}
+
 @media screen and (max-width: 700px){
     .menu__info {
         width: 60rem;
@@ -93,3 +97,117 @@
         width: 21rem;
     }
 }
+
+@media screen and (max-width: 500px){
+    .header{
+        position: fixed;
+        z-index: 10;
+    }
+    .header__wrap-hd{
+        display: none;
+    }
+    .logo__wrap-hd{
+        display: none;
+    }
+   
+    
+    .mobile__menu__wrap{
+        width: 100%;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 10;
+    }
+
+    .burger__menu{
+        width: 4rem;
+        height: 4rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+    }
+    .burger__line{
+        height: .3rem;
+        width: 100%;
+        background: var(--gold);
+    }
+
+    .menu_show .burger__line{
+        background: var(--white);
+    }
+
+    .burger__line-top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: top 1s 1s ease, transform 1s ease, color 0.3s ease;
+    }
+    .burger__line-bot{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: bottom 1s 1s ease, transform 1s ease, color 0.3s ease;
+    }
+    .burger__line-mid{
+        transition: opacity 1s ease;
+    }
+
+    .menu_show .burger__line-top{
+        transform: rotate(315deg);
+        top: calc(50% - .15rem);
+        transition: top 1s ease, transform 1s 1s ease, color 0.3s ease;
+    }
+    .menu_show .burger__line-bot{
+        transform: rotate(-135deg);
+        bottom: calc(50% - .15rem);
+        transition: bottom 1s ease, transform 1s 1s ease, color 0.3s ease;
+    }
+    .menu_show .burger__line-mid{
+        opacity: 0;
+    }
+
+    .icon__phone{
+        color: var(--gold);
+        font-size: 5rem;
+    }
+    .icon__phone:hover{
+        color: var(--white);
+    }
+
+    .menu__info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 174vh;
+        width: 37rem;
+        max-width: 100%;
+        background: var(--dark-grey);
+        z-index: 1;
+        transform: translateX(-120%);
+        transition: transform 0.6s ease;
+    }
+    .menu__list{
+        flex-direction: column;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 15rem 5% 0;
+        transform: translateX(-120%);
+        transition: transform 0.6s ease;
+    }
+
+    .menu__item .menu-text.text-up{
+        font-size: 3rem;
+    }
+
+    .menu_show .menu__info{
+        transform: translateX(0%);
+    } 
+    .menu_show .menu__info .menu__list{
+        transform: translateX(0%);
+    }
+
+}
+
