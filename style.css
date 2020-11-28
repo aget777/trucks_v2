@@ -1,0 +1,36 @@
+@import 'css/base.css';
+@import 'css/fonts.css';
+@import 'css/header.css';
+@import 'css/main.css';
+@import 'css/roaming.css';
+@import 'css/services.css';
+@import 'css/company.css';
+@import 'css/footer.css';
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    /* width: 115rem; */
+    width: 192rem;
+    background: var(--dark-grey);
+    margin: 0 auto;
+}
+
+.main__wrap{
+    width: 111rem;
+    margin: 0 auto;
+}
+
+.gold-line{
+    height: .6rem;
+    width: 9rem;
+    background: var(--gold);
+}
+
+.map{
+    height: 45rem;
+    background: url('img/map.png');
+    margin-top: 12rem;
+}

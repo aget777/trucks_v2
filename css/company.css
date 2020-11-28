@@ -1,0 +1,79 @@
+.company{
+    height: 48rem;
+    background:  linear-gradient(to right, var(--dark-grey) 0%, var(--dark-grey) 33%, var(--light-grey) 33%, var(--light-grey) 66%, var(--dark-grey) 66%, var(--dark-grey) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.company__wrap{
+    height: 32rem;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+
+}
+
+.company__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company__info-sub{
+    width: 89%; 
+}
+
+.roaming__info-text.company__info-block .title.title-s{
+    margin-bottom: 1.7rem;
+}
+
+.element__text.company__info-sub{
+    line-height: 2.3rem;
+    letter-spacing: 0; 
+    margin-bottom: 2.5rem;
+}
+
+
+.company__pic{
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    grid-template-rows: repeat(2, 16rem);
+}
+
+.pic__item-text{
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.pic__title{
+    color: var(--dark-grey);
+    font-weight: var(--font-bold);
+    margin-top: .8rem;
+}
+
+.company__pic-text{
+    color: var(--black);
+}
+
+.text-xs.company__pic-text{
+    margin-bottom: .8rem;
+}
+
+.subtitle.text-low.company__pic-text{
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pic__title-long{
+    font-size: 5.5rem;
+}
+
+.pic__img{
+    overflow: hidden;
+}

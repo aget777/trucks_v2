@@ -1,0 +1,33 @@
+
+.main__screen__wrap{
+    background: url('../img/main__banner.png') center no-repeat;
+}
+
+.main__screen__block{
+    height: 62rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__screen-area{
+    width: 92rem;
+    height: 24.5rem;
+    border: 0.1rem solid var(--gold);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-top: -6.7rem;
+    padding: 0 4.9rem;
+}
+
+.main__screen-area .title{
+    margin-top: 2.9rem;
+}
+
+.main__screen-area .subtitle.main__screen-block-sub{
+    margin-bottom: 2.7rem;
+}

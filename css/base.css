@@ -1,0 +1,18 @@
+:root{
+    font-size: 10px;
+    --dark-grey:#2F343A;
+    --light-grey:#393F47;
+    --gold:#C8A35F;
+    --light-gold:#dbbb80;
+    --white:#fff;
+    --black: #000;
+    --font-thin: 100;
+    --font-extra-light: 200;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --font-extra-bold: 800;
+    --font-black: 900;
+}

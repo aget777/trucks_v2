@@ -1,0 +1,80 @@
+
+.header__wrap{
+    background: var(--gold);
+}
+
+
+.contacts{
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts.main__wrap{
+    margin-bottom: .2rem;
+}
+
+.lang .text-xs{
+    opacity: 0.5;
+}
+
+.lang .text-xs:hover{
+    opacity: 0.9;
+}
+
+.lang .text-xs:focus{
+    opacity: 0.9;
+}
+
+.lang .text-xs:not(:last-child){
+    margin-right: .8rem;
+}
+
+.phone{
+    margin-right: 1rem;
+}
+
+.link-wrap{
+    z-index: 1;
+}
+
+.menu__items{
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__wrap{
+    height: 4.6rem;
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-line{
+    height: 100%;
+    width: .2rem;
+    background: var(--white);
+}
+
+.logo-office{
+    width: 13rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__info{
+    width: 43rem;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    padding-left: 1.8rem;
+}

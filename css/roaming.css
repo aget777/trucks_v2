@@ -1,0 +1,105 @@
+.roaming{
+    background:  linear-gradient(to right, var(--light-grey) 0%, var(--light-grey) 33%, var(--dark-grey) 33%, var(--dark-grey) 66%, var(--light-grey) 66%, var(--light-grey) 100%);
+}
+
+.roaming__wrap{
+    height: 56.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roaming__main__block{
+    height: 31.2rem;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: -1.1rem;
+}
+
+.roaming__info{
+    height: 100%;
+    width: 41.5rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.roaming__info-block .title.title-s{
+    margin-bottom: 1.6rem;
+}
+
+.roaming__info-block .subtitle.roamig__info-sub{
+    margin-bottom: .4rem;
+}
+
+.roaming__info-button{
+    width: 22rem;
+    height: 5.5rem;
+    background: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, border 0.6s ease;
+    border: 2px solid transparent;
+}
+
+.roaming__info-button:hover{
+    background: var(--light-gold);
+    border: 2px solid var(--dark-grey);
+    transition: background-color 0.3s ease, border 0.6s ease;
+    
+}
+
+.roaming__banner{
+    margin-left: 5.9rem;
+}
+
+.roaming__banner-img{
+    max-width: 44.5rem;
+    height: 100%;
+    margin-right: 2.9rem;
+    margin-top: 4.6rem;
+}
+
+.roamig__arrows{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 100%;
+    width: 16rem;
+    align-items: center;
+}
+
+.arrow-text{
+    color: var(--gold);
+    transition: color 1s ease;
+}
+
+.arrow-text:hover{
+    color: var(--white);
+    transition: color 1s ease;
+}
+
+.roamig__arrows .element__text.text-up.arrow-text:first-of-type{
+    margin-top: -6.3rem;
+    margin-left: .7rem;
+}
+
+.arrow__forward{
+    margin-top: -6.5rem;
+    margin-left: 1.5rem;
+}
+
+.roamig__arrows .element__text.text-up.arrow-text:last-of-type{
+    margin-top: 15.2rem;
+    margin-left: 1.6rem;
+}
+
+.arrow__back{
+    margin-top: 15.2rem;
+}
