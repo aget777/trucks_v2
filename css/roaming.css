@@ -103,3 +103,10 @@
 .arrow__back{
     margin-top: 15.2rem;
 }
+
+
+@media screen and (max-width: 600px){
+    .roaming__main__block {
+        height: 40.2rem;
+    }
+}

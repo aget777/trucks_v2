@@ -94,3 +94,37 @@
 .text-no-space{
     letter-spacing: 0;
 }
+
+@media screen and (max-width: 900px){
+    .text-xs{
+        font-size: 1.8rem;
+    }
+    .menu-text{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .element__text{
+        font-size: 2rem;
+    }
+    .subtitle{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .menu-text {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .text-xs {
+        font-size: 2.5rem;
+    }
+    .subtitle{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}

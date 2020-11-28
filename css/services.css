@@ -74,3 +74,9 @@
 .services__item:focus .img__item{
     background: var(--white)
 }
+
+@media screen and (max-width: 600px){
+    .services__item .subtitle.text-up{
+        font-size: 2rem;
+    }
+}

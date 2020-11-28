@@ -60,3 +60,29 @@
     pointer-events: none;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 700px){
+    .footer__phone{
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .footer__wrap {
+        grid-template-rows: 13rem;
+    }
+    .menu-text-adress {
+        line-height: 3rem;
+    }
+    .menu-text.menu-text-dark.text-no-space{
+        line-height: 4rem;
+    }
+    .footer__phone .menu-text:first-child {
+        margin-top: -4.5rem;
+        line-height: 7rem;
+    }
+    .dev__info {
+        position: absolute;
+        top: 5.4rem;
+    }
+}

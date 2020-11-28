@@ -31,3 +31,12 @@
 .main__screen-area .subtitle.main__screen-block-sub{
     margin-bottom: 2.7rem;
 }
+
+@media screen and (max-width: 600px){
+    .main__screen-area {
+        height: 37.5rem;
+    }
+    .main__screen-area .title {
+        margin-top: 2rem;
+    }
+}

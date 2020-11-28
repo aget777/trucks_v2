@@ -77,3 +77,32 @@
 .pic__img{
     overflow: hidden;
 }
+
+@media screen and (max-width: 600px){
+    .company__wrap {
+        height: 45rem;
+    }
+    .element__text.company__info-sub{
+        line-height: 2.8rem;
+        font-size: 2.5rem;
+    }
+    .roaming__info-text.company__info-block .title.title-s {
+        margin-bottom: 1.7rem;
+        margin-top: 1.5rem;
+    }
+    .company__wrap {
+        align-items: center;
+    }
+    .pic__title {
+    margin-top: 0;
+    }
+    .subtitle.text-low.company__pic-text {
+        top: 47%;
+        letter-spacing: 0;
+    }
+    .text-xs.company__pic-text{
+        font-size: 2rem;
+        margin-bottom: .8rem;
+        margin-top: 1.7rem;
+    }
+}
