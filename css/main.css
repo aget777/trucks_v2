@@ -40,3 +40,12 @@
         margin-top: 2rem;
     }
 }
+
+
+@media screen and (max-width: 500px){
+    .main__screen-area {
+        height: 37.5rem;
+    }
+    .main__screen__block {
+        height: 82rem;}
+}

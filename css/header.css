@@ -109,11 +109,14 @@
     .logo__wrap-hd{
         display: none;
     }
-   
+   .menu_hide-hd{
+       display: none;
+   }
     
     .mobile__menu__wrap{
         width: 100%;
         margin-left: 2rem;
+        margin-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;

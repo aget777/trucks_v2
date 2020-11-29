@@ -37,23 +37,11 @@
     margin-bottom: .4rem;
 }
 
-.roaming__info-button{
-    width: 22rem;
-    height: 5.5rem;
-    background: var(--gold);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.3s ease, border 0.6s ease;
-    border: 2px solid transparent;
+.roaming__info .element__text.text-up.button__info{
+    margin-bottom: -.5rem;
+    margin-left: -.3rem;
 }
 
-.roaming__info-button:hover{
-    background: var(--light-gold);
-    border: 2px solid var(--dark-grey);
-    transition: background-color 0.3s ease, border 0.6s ease;
-    
-}
 
 .roaming__banner{
     margin-left: 5.9rem;
@@ -109,4 +97,11 @@
     .roaming__main__block {
         height: 40.2rem;
     }
+}
+
+@media screen and (max-width: 450px){
+    .roaming__banner-mob {
+        display: none;
+    }
+    
 }
