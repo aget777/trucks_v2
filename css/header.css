@@ -194,7 +194,7 @@
     }
     .menu__list{
         flex-direction: column;
-        height: 100vh;
+        height: 40vh;
         box-sizing: border-box;
         padding: 15rem 5% 0;
         transform: translateX(-120%);
